@@ -18,10 +18,19 @@ This project implements multiple pathfinding and optimization algorithms for shi
 ## 🚀 Features
 
 ### Algorithms Implemented
-1. **Dijkstra's Algorithm** - Classic shortest path (baseline)
-2. **A\* Algorithm** - Heuristic-based optimization (faster than Dijkstra)
-3. **Weather-Aware A\*** - Incorporates weather cost factors
-4. **Fuel-Optimized Routing** - Minimizes fuel consumption
+1. **Bidirectional A\*** - Novel implementation, searches from both start and goal for 2-3× speedup
+2. **Genetic Algorithm** - Multi-objective optimization balancing distance, fuel, safety, and time
+3. **A\*** Algorithm - Heuristic-based optimization (faster than Dijkstra)
+4. **Weather-Aware A\*** - Incorporates weather cost factors
+5. **Fuel-Optimized Routing** - Minimizes fuel consumption
+6. **Dijkstra's Algorithm** - Classic shortest path (baseline)
+
+These algorithms support:
+- Real-world map integration
+- Weather-aware routing
+- Carbon emission tracking
+- Safety zone avoidance
+- Route learning (ML-based)
 
 ### Interactive Visualization
 - Real-time interactive map with Leaflet.js
