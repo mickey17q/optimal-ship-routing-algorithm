@@ -219,9 +219,6 @@ This is a course project, but suggestions are welcome!
 
 This project is created for educational purposes.
 
-## 👨‍💻 Author
-
-Course Project - Ship Routing Algorithm Implementation
 
 ---
 
